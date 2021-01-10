@@ -1,0 +1,73 @@
+doctype html
+html(lang='en')
+  head
+    link(rel='stylesheet' href='ask.css')
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css')
+    title Ask
+  body
+    section#header
+      nav.navbar.navbar-expand-lg.navbar-custom1
+        .container-fluid
+          a.navbar-brand(href='/')
+            img.logoimg(src='/media/logo.png' alt='logo')
+            h1.logo Rise And Shine
+            .tagline
+              p.tagline We are best known for Professional Mentoring for Students
+          #navbarNav.collapse.navbar-collapse
+            ul.navbar-nav.ml-auto
+              li.nav-item
+                a.nav-link(href='/') Home
+              li.nav-item
+                a.nav-link(aria-current='page' href='/questions') Questions
+              li.nav-item
+                a.nav-link(href='/ask') Ask a question
+              //
+                <li class="nav-item">
+                <a class="nav-link" href="/login.html">Sign up / Sign in</a>
+                </li>
+    section#ques
+      form(enctype='multipart/form-data' method='POST' action='/ask')
+        .form-group
+          label(for='exampleInputEmail1')
+            b.askQues Enter Your Name
+          input#exampleInputname.form-control(type='text' aria-describedby='emailHelp' placeholder='Enter Your Name Here' name='name')
+        .form-group
+          label(for='exampleFormControlTextarea1')
+            b.askQues Write your post
+          textarea#exampleFormControlTextarea1.form-control(placeholder='Enter your post' rows='10' name='question')
+          .col-12
+            button.btn.btn-primary.float-right(type='submit') Submit
+    section#footer
+      nav.navbar.navbar-expand-lg.navbar-custom1
+        br
+        br
+        br
+        a.navbar-brand(href='#') Share On
+        a.navbar-brand(href='https://wa.me/?text=I+found+an+awesome+website+called+Rise+and+Shine+which+is+full+of+educational+stuff+for+students.+do+check+it+out+')
+          img(src='/media/waico.png' width='30' height='30' alt='')
+        a.navbar-brand(href='mailto:riseandshineeducational@gmail.com?subject=Issue')
+          img(src='/media/mailico.png' width='30' height='30' alt='')
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item.active
+              a.nav-link(href='/')
+                | Home 
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='/questions') Posts
+            li.nav-item
+              a.nav-link(href='/ask') Write a Post
+            //
+              <li class="nav-item">
+              <a class="nav-link" href="#">Answer</a>
+              </li>
+        br
+        br
+        br
+    script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js')

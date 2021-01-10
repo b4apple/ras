@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logoimg
+{
+    width: 110px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.tagline{
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); */
+    margin-left: 62px;
+    color:black;
+    margin-top: -11px;
+    /* color: black; */
+}
+
+
+@font-face{
+    font-family: cocopro;
+    src:url(media/cocoProSe.ttf);
+}
+
+/* #header
+{
+    background-image: url(media/img6.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+} */
+
+.navbar-nav li a{
+    float: right;
+    color: black!important;
+
+}
+.navbar-nav li a:hover{
+    float: right;
+    color:whitesmoke!important;
+
+}
+
+.logo{
+    /* color: whitesmoke; */
+    color:black;
+    font-family: cocopro;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    margin-left: 121px;
+    margin-top: -107px;
+}
+
+.card
+{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-toggler{
+    border: none!important;
+    outline: none!important;
+}
+
+
+#ques
+{
+    margin-left: 155px;
+    margin-bottom: 40px;
+}
+
+
+.navbar-custom {
+    /* background-color: #86868621; */
+    /* background-color: rgba(0, 0, 0, 0); */
+    background-color: whitesmoke;
+}
+
+
+
+#header
+{
+    margin-bottom: 30px;
+}
+
+/* 
+body {
+    background-image: url("https://www.thebalancecareers.com/thmb/hOSTPGdYulshro7AqttFK2wlT_Q=/3864x2173/smart/filters:no_upscale()/school-books-on-desk--education-concept-871454068-5b548900c9e77c005b04fc8c.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+} */
+body{
+    background-color: #9CC3D5FF!important;
+}
+
+
+
+
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .demo {
+    margin: 0 auto;
+    padding-top: 64px;
+    max-width: 640px;
+    width: 94%;
+  }
+
+#footer
+{
+    bottom: 0%;
+    position: absolute;
+    right: 0;
+    left: 0;
+
+}
+
+
+.navbar-custom1 {
+    background-color: #cecece;
+}
+#footer a
+{
+    color: black!important;
+}
+
+#footer a:hover
+{
+    color: whitesmoke!important;
+}

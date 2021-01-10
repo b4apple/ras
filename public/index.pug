@@ -1,0 +1,102 @@
+doctype html
+html(lang='en')
+  head
+    link(rel='stylesheet' href='index.css')
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css')
+    title Home
+  body
+    // ------------------------------Header----------------------------------
+    section#header
+      nav.navbar.navbar-expand-lg.navbar-custom1
+        .container-fluid
+          a.navbar-brand(href='/')
+            img.logoimg(src='/media/logo.png' alt='logo')
+            h1.logo Rise And Shine
+            .tagline
+              p.tagline We are best known for Professional Mentoring for Students
+          #navbarNav.collapse.navbar-collapse
+            ul.navbar-nav.ml-auto
+              li.nav-item
+                a.nav-link(href='/') Home
+              li.nav-item
+                a.nav-link(aria-current='page' href='/questions') Posts
+              li.nav-item
+                a.nav-link(href='/ask') Write A Post
+              //
+                <li class="nav-item">
+                <a class="nav-link" href="/login.html">Sign up / Sign in</a>
+                </li>
+    section#about
+      .container.card
+        br
+        .row
+          .col-md-6.text-center
+            img.img-fluid(src='https://rb.gy/2pllrl')
+          .col-md-6.text-justify
+            h3.abot About Us
+            p.abotf1
+              | Rise and Shine strives to offer world-class facilities in education through online communities, support and
+              | much more.
+              | This site hosts a homely community where students, professionals and other like-minded people share their 
+              | views, thoughts about academia and ways to excell.
+            br
+    section#project360
+      .container.card
+        br
+        .row
+          .col-md-6.text-center
+            img.img-fluid(src='https://rb.gy/weovyg')
+          .col-md-6.text-justify
+            h3.abot What you can do
+            p.abotf1
+              | This is website is all about sharing and reading the shared. You can read what others have done to excel
+              | or you can yourself share your experiences from which others will benefit and ultimately, a better
+              | future will follow.
+        br
+    section#fcode
+      .container.card
+        br
+        .row
+          .col-md-6.text-center
+            img.img-fluid(src='https://rb.gy/povt6o')
+          .col-md-6.text-justify
+            h3.abot Support 
+            p.abotf1
+              | Did you think this is just a place to share experiences ? No! You can write to us about your queries and 
+              | we'll definitely look into them
+              |
+        br
+    section#footer
+      nav.navbar.navbar-expand-lg.navbar-custom1
+        br
+        br
+        br
+        a.navbar-brand(href='#') Share On
+        a.navbar-brand(href='https://wa.me/?text=I+found+an+awesome+website+called+Rise+and+Shine+which+is+full+of+educational+stuff+for+students.+do+check+it+out+')
+          img(src='/media/waico.png' width='30' height='30' alt='')
+        a.navbar-brand(href='mailto:riseandshineeducational@gmail.com')
+          img(src='/media/mailico.png' width='30' height='30' alt='')
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item.active
+              a.nav-link(href='/index')
+                | Home 
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='/questions') Posts
+            li.nav-item
+              a.nav-link(href='/ask') Write A Post
+            //
+              <li class="nav-item">
+              <a class="nav-link" href="#">Answer</a>
+              </li>
+        br
+        br
+        br
+    script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js')
